@@ -9,7 +9,7 @@ public class ex01 {
         double raio, diametro, comprimento, area;
 
         System.out.println(
-                "Escreva um programa que receba o raio de uma circinferência e mostre o diâmetro, comprimento e área desta.");
+                "Escreva um programa que receba o raio de uma circunferência e mostre o diâmetro, comprimento e área desta.");
 
         System.out.println("");
         System.out.print("Raio: ");
