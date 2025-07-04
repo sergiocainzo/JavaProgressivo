@@ -13,12 +13,18 @@ public class nota {
         System.out.println("--------------");
         System.out.print("Informe a nota: ");
         float nota = scan.nextFloat();
-        if (nota >= 7) {
-            System.out.println("Passou direto");
-        } else if (nota >= 5 && nota < 7) {
-            System.out.println("Tem direito de fazer uma prova de recuperação");
+        if ((nota <= 10) && (nota >= 0)) {
+            //System.out.println("Nota Válida");
+            if (nota >= 7) {
+                System.out.println("Passou direto");
+            } else if (nota >= 5 && nota < 7) {
+                System.out.println("Tem direito de fazer uma prova de recuperação");
+            } else {
+                System.out.println("Reprovado direto");
+            }
         } else {
-            System.out.println("Reprovado direto");
+            System.out.println("Nota inválida, fechando aplicativo!");
         }
+
     }
 }
